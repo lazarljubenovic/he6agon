@@ -1,6 +1,9 @@
 {
   "name": "he6agon",
   "version": "1.0.0",
+  "description": "A game.",
+  "repository": "https://github.com/lazarljubenovic/he6agon",
+  "author": "lazarljubenovic <lazar.ljubenovic.1995@gmail.com>",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -26,5 +29,5 @@
     "servor": "^2.2.1",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
-  }
+  },
 }
