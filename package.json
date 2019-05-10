@@ -1,0 +1,30 @@
+{
+  "name": "he6agon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass:watch": "node-sass --watch --recursive --output dist src",
+    "rollup:watch": "rollup -cw",
+    "servor": "servor dist",
+    "test": "TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\"}' mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "neewt": "^0.0.1",
+    "node-sass": "^4.12.0",
+    "rollup": "^1.11.3",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-copy": "^2.0.1",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.21.0",
+    "servor": "^2.2.1",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
